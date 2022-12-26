@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right);
+}
+.reviews-head {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+.left-arrow {
+  border-width: 0px;
+  background-color: transparent;
+}
+.right-arrow {
+  border-width: 0px;
+  background-color: transparent;
+}
+.list-items {
+  display: flex;
+}
+.reviews-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  height: 14vh;
+  width: 120px;
+  display: flex;
+  align-self: center;
+}
+.username {
+  display: flex;
+  align-self: center;
+  color: white;
+}
+.companyName {
+  display: flex;
+  align-self: center;
+}
+.description {
+  display: flex;
+  align-self: center;
+}
